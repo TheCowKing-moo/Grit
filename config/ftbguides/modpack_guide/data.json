@@ -1,0 +1,25 @@
+{
+	"title": "Grit",
+	"author": [
+		TheCowKing_moo
+	],
+	"icon": "item:immersiveengineering:drillhead",
+	"pages": [
+		{
+			"id": "age1",
+			"title": "Age One",
+			"icon": "item:minecraft:iron_ore"
+		},
+		{
+			"id": "ore_generation",
+			"title": "Ore Generation",
+			"icon": "item:minecraft:iron_ore"
+		},
+				{
+			"id": "tips",
+			"title": "Tips",
+			"icon": "item:minecraft:bookshelf"
+		}
+
+	]
+}

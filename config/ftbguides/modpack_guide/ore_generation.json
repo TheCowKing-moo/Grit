@@ -1,0 +1,40 @@
+[
+	"These ores spawn in huge veins and are biome dependant. They can be somewhat rare, but surface rocks should help with finding them. Most veins typically contain a neighbor ore which can spawn in small quantities in the parent vein.",
+	"",
+		{"h1": "Ore Generation"},
+	{
+		"head": [
+			{"text": "Vein Ore", "type": "text"},
+			{"text": "Y Levels", "type": "number", "align": "right"},
+			{"text": "Biome", "type": "text"},
+			{"text": "Neighbor Ores", "type": "text"},
+			{"text": "Vein Type", "type": "text"}
+		],
+		"table": [
+			["Aluminium", "45-70", "Jungle/Swamp", "Iron/Ruby/Sapphire", "Fractal"],
+			["Apatite", "40-70", "Jungle/Swamp", "Iron/Copper/Gold", "Uniform"],
+			["Boron", "0-21", "Ocean", "Uranium", "Fractal"],
+			["Certus Quartz", "35-55", "Charged Certus / Quartz / Black Quartz", "Uniform"],
+			["Coal", "0-125", "Mountain/Hill", "Diamond / Bone / Amber", "Fractal"],
+			["Copper", "45-90", "Forest/Plains", "Gold / Iron", "Fractal"],
+			["Diamond", "1-20", "Mountain/Hill", "Coal / Ruby / Sapphire / Quartz / Black Quartz", "Geode"],
+			["Dilithium", "4-26", "Snowy", "Coal", "Fractal"],
+			["Emerald", "20-45", "Mountain/Hill", "Coal / Ruby / Sapphire / Quartz / Black Quartz", "Uniform"],
+			["Gold", "45-90", "Mountain/Hill/River", "Copper / Cinnibar / Iron", "Fractal"],
+			["Iridium", "15-35", "Ocean", "Uranium/Gold", "Fractal"],
+			["Iron", "15-35", "Forest/Plains", "Nickel / Sapphire / Ruby", "Fractal"],
+			["Lapis", "10-21", "Sandy/Mesa", "None", "Gaussian"],
+			["Lead/Silver", "5-25", "Jungle/Swamp", "Silver", "Uniform"],
+			["Lithium/Magnesium", "0-45", "Ocean", "Magnesium", "Fractal"],
+			["Nickel", "30-45", "Snowy", "Iron / Copper", "Fractal"],
+			["Osmium", "50-70", "Snowy", "Diamond / Iridium", "Uniform"],
+			["Platinum", "0-9", "Snowy", "Nickel", "Fractal"],
+			["Redstone", "5-55", "Sandy/Mesa", "Ruby / Sapphire / Resonating", "Fractal"],
+			["Resonating", "7-19", "Forest/Plains", "Redstone", "Fractal"],
+			["Rutile", "15-55", "Ocean", "Diamond / Quartz / Black Quartz", "Fractal"],
+			["Thorium", "0-20", "Ocean", "Uranium", "Fractal"],
+			["Tin", "20-55", "Jungle/Swamp", "Iron/Nickel", "Uniform"],
+			["Uranium", "30-60", "Ocean", "Iridium/Gold", "Fractal"]
+		]
+	}
+]

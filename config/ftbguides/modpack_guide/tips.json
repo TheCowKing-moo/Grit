@@ -1,0 +1,18 @@
+[
+	{"h1": "Progression"},
+  "Welcome to Grit. This pack is centered around automation and non-teleportation related logistics. In this modpack you will advance through several Ages, each of which enable you to use more mods and be able to gather and use more material.",
+	"",
+	"In order to advance to each age you will need to use a Research Table. The table requires a certain amount of material, fluids, and or power. Once you reach all the requirements it will advance you to the next age. You also have a quest line that you can follow to help guide you towards the research table goals, but it is absolutly not required.",
+	"",
+	"There are some major changes from default Vanilla/Mod settings.",
+	"-Minecraft infinite water mechanic will only work in river or ocean biomes.",
+	"-All mods teleportation methods for power, items, fluids, or players have been disabled. The one exception is AE2 quantum tunneling which is quite late in the pack.",
+	"-Biome generation has been altered through the use of Geographicraft. This will band biomes in a more realistic way and makes the biomes on more extreme ends of the temerature spectrum far away from each other.",
+	"-Ore gen has been drastically altered. Most ores will only spawn under certain biome conditions which are labeled in the Ore's page in this guide book. They also spawn rarely, but in massive amounts known as Motherload. Many of the common ores will have sample rocks on the surface which can help you locate them easily.",
+    "- While the ore gen does provide huge amounts of much needed material, constantly moving to a new area to mine up more material is slow and tedious. Bedrock Ores exists and will provide a near infinite amount of material from the ore. Automating the mining and transport of these ores will be much more sustainable",
+	"You cannot bucket lava by hand. Its too hot to handle!",
+	"-All air blocks under y level 15 is replaced with lava. There are many solutions to clearing up lava in your search for bedrock ores. (fluid banishing items, pumps, quarries, potions, etc)",
+	"While many trees do not spawn in the world naturally from some mods to clean up clutter (natura/rustic/integrated dynamics) these saplings can be gotten tech or magic",
+	"The research table doesn't just let you advance through the ages, but lets you buy blueprints for your base if building is not your thing(the cost is typically the cost of the build + small charge)",
+	"-Planks will need to be gathered by chopping or from a machine",
+]

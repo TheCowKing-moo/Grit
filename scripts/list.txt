@@ -1,0 +1,4 @@
+
+steel drill IE <immersiveengineering:drill>.withTag({Fluid: {FluidName: "biodiesel", Amount: 4000}, upgrades: {oiled: 1 as byte, capacity: 2000}})
+<botania:terrapick>.withTag({mana: 999999})
+<actuallyadditions:item_drill:3>.withTag({Energy: 250000, Items: [{ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "actuallyadditions:item_drill_upgrade_three_by_three", Count: 1 as byte, Damage: 0 as short}, {}, {}, {}, {}]})
