@@ -28,6 +28,8 @@ To-Do:
   18. Deal with mob grinders
  
 
+The configurations of this pack are a total mess. Don't look at them. 
+
 Resources
   Write Up
   https://docs.google.com/document/d/1o5hIKtFfOW5w9dIwqSEkPkQjImuv1AeVScBrjs4R2GY/edit?usp=sharing
