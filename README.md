@@ -19,7 +19,14 @@ To-Do:
   9. RF early: Gen RF for tools early game
   10. Age 2 Autoamtion: Make sure that you can reasonablly autoamted all the requested materials in the age.
   11. Pipes: I like the age that LP pipes come in, but it feels odd to get all of AA, TE, and IE pipes in the age afterwards.
-  
+  12. Astral Sorc: Disable the passive miner and the TP mechanic. Gate flight to something way farther down than its current age.
+  13. Thaumcraft: make sure it doesnt break age 3
+  14. configure All wood planks to be sawmillable / choppable
+  15. make rock/saplings that you cannot find due to world gen craftable
+  16. Pneumaticraft: skip etching
+  17. Bwm: skip windmills
+  18. Deal with mob grinders
+ 
 
 Resources
   Write Up
@@ -30,3 +37,7 @@ Resources
   
   Crappy IIngredient Refrence Sheet
   https://docs.google.com/spreadsheets/d/1U3OzNRe5XDu8bhpZK0_JtoIztk78yEpIwysE23LVF-o/edit?usp=sharing
+  
+  
+  
+  
