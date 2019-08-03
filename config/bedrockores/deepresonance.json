@@ -1,0 +1,38 @@
+[
+  {
+    "enabled": true,
+    "state": {
+      "name": "deepresonance:resonating_ore",
+      "properties": {
+       "oretype": "overworld"
+      }
+    },
+    "biomeFilter": "whitelist",
+    "biomeSelector": "dictionary",
+    "biome": [ "plains", "forest" ],
+    "weight": 3,
+    "widthMin": 3,
+    "widthMax": 5,
+    "countMin": 3,
+    "countMax": 5,
+    "yieldMin": 10,
+    "yieldMax": 20
+  },
+  {
+    "enabled": false,
+    "state": {
+      "name": "deepresonance:resonating_ore",
+      "properties": {
+        "oretype": "nether"
+      }
+    },
+
+    "weight": 3,
+    "widthMin": 3,
+    "widthMax": 5,
+    "countMin": 3,
+    "countMax": 5,
+    "yieldMin": 10,
+    "yieldMax": 20
+  }
+]

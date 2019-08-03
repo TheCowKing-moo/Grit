@@ -256,19 +256,7 @@
 			"vertical-density": 7,
 			"horizontal-density": 5,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "MOUNTAIN"
-						},
-						{
-							"type": "dictionary",
-							"entry": "HILLS"
-							}		
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -374,64 +362,6 @@
 					1
 				]
 			}
-        },
-        "Dilithium_Vein": {
-            "distribution": "fractal",
-            "generator": {
-                "type": "large-vein",
-                "block": [
-                    {
-                        "name": "libvulpes:ore0",
-                        "metadata": 0,
-                        "weight": 90
-                    },
-                    {
-                        "name": "minecraft:coal_ore",
-                        "metadata": 0,
-                        "weight": 10
-                    }
-                ],
-                "material": [
-                    {
-                        "name": "minecraft:stone",
-                        "metadata": 0
-                    },
-                    {
-                        "name": "quark:biome_cobblestone",
-                        "metadata": 1
-                    }
-                ],
-                "cluster-size": 30
-            },
-            "cluster-count": 25,
-            "chunk-chance": 35,
-            "min-height": 4,
-            "max-height": 26,
-            "vein-height": 32,
-            "vein-diameter": 5,
-            "vertical-density": 11,
-            "horizontal-density": 5,
-            "retrogen": "true",
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "dictionary",
-                        "entry": "SNOWY"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "FROZEN"
-                    }
-                ]
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            }
         },
         "Emerald_Geode": {
 			"distribution": "uniform",
@@ -1055,65 +985,6 @@
                     {
                         "type": "dictionary",
                         "entry": "FOREST"
-                    }
-                ]
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            }
-        },
-        "Rutile_Vein": {
-            "distribution": "fractal",
-            "generator": {
-                "type": "large-vein",
-                "block": [
-                    {
-                        "name": "libvulpes:ore0",
-                        "metadata": 8,
-                        "weight": 85
-                    },
-                    {
-                        "name": "minecraft:quartz_ore",
-                        "metadata": 7,
-                        "weight": 5
-                    },
-					{
-                        "name": "actuallyadditions:block_misc",
-                        "metadata": 3,
-                        "weight": 5
-                    },
-                    {
-                        "name": "minecraft:diamond_ore",
-                        "metadata": 0,
-                        "weight": 5
-                    }
-                ],
-                "material": "minecraft:stone",
-                "cluster-size": 25
-            },
-            "cluster-count": 15,
-            "chunk-chance": 35,
-            "min-height": 15,
-            "max-height": 55,
-            "vein-height": 32,
-            "vein-diameter": 5,
-            "vertical-density": 11,
-            "horizontal-density": 5,
-            "retrogen": "true",
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "dictionary",
-                        "entry": "OCEAN"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "BEACH"
                     }
                 ]
             },

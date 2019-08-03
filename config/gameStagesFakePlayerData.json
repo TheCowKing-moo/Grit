@@ -1,0 +1,68 @@
+[
+  {
+    "fakePlayerName": "[Minecraft]",
+    "stages": [
+      "one",
+      "two",
+      "three",
+	  "four",
+	  "five",
+	  "six"
+    ]
+  },
+  {
+    "fakePlayerName": "rftools_builder",
+    "stages": [
+      "one",
+      "two",
+      "three",
+	  "four",
+	  "five",
+	  "six"
+    ]
+  },
+  {
+    "fakePlayerName": "[BWM Saw]",
+    "stages": [
+      "one",
+      "two",
+      "three",
+	  "four",
+	  "five",
+	  "six"
+    ]
+  },
+  {
+    "fakePlayerName": "[BWM SHOVELER]",
+    "stages": [
+      "one",
+      "two",
+      "three",
+	  "four",
+	  "five",
+	  "six"
+    ]
+  },
+  {
+    "fakePlayerName": "[BWM Block Dispenser]",
+    "stages": [
+      "one",
+      "two",
+      "three",
+	  "four",
+	  "five",
+	  "six"
+    ]
+  },
+  {
+    "fakePlayerName": "rftools_elevator",
+    "stages": [
+      "one",
+      "two",
+      "three",
+	  "four",
+	  "five",
+	  "six"
+    ]
+  }
+]
