@@ -106,6 +106,8 @@ global materialBank as IIngredient[][string] = {
     <thermalfoundation:material:356>
   ],
   copper: [
+    <morefurnaces:furnaceblock:5>,
+	<morefurnaces:upgrade:7>,
 	<techreborn:smalldust:14>,
 	<lumberjack:copper_lumberaxe>,
     <thermalfoundation:horse_armor_copper>,
@@ -134,6 +136,8 @@ global materialBank as IIngredient[][string] = {
   ],
   diamond: [
     <binniecore:storage:5>,
+	<morefurnaces:furnaceblock:2>,
+	<morefurnaces:upgrade:4>,
 	<lumberjack:diamond_lumberaxe>,
     <storagedrawers:upgrade_storage:3>, //Storage Drawers:Storage Upgrade (IV)
 	<storagedrawers:controllerslave>, //Storage Drawers:Controller Slave
@@ -336,6 +340,11 @@ global materialBank as IIngredient[][string] = {
   iridium: [
   ],
   iron: [
+    <morefurnaces:furnaceblock>,
+	<morefurnaces:upgrade:6>,
+	<morefurnaces:upgrade>,
+	<morefurnaces:upgrade:2>,
+	<morefurnaces:furnaceblock:1>,
 	<roots:iron_knife>, //Roots:Iron Knife
 	<lumberjack:iron_lumberaxe>,
 	<techreborn:smalldust:27>,
@@ -464,7 +473,6 @@ global materialBank as IIngredient[][string] = {
     <chisel:ironpane:10>,
     <chisel:ironpane:11>,
     <chisel:ironpane:12>,
-    <chisel:chisel_iron>,
     <bibliocraft:lanterniron>,
     <bibliocraft:lanterniron:9>,
     <bibliocraft:lanterniron:14>,
@@ -550,6 +558,8 @@ global materialBank as IIngredient[][string] = {
   ],
   obsidian: [
     <ore:obsidian>,
+	<morefurnaces:furnaceblock:3>,
+	<morefurnaces:upgrade:3>,
 	<actuallyadditions:obsidian_paxel>, //Actually Additions:Obsidian AIOT
 	<chesttransporter:chesttransporter_obsidian>.withTag({}),
 	<ironchest:diamond_obsidian_chest_upgrade>,
@@ -663,6 +673,8 @@ global materialBank as IIngredient[][string] = {
     <thermalfoundation:material:357>
   ],
   silver: [
+    <morefurnaces:furnaceblock:6>,
+	<morefurnaces:upgrade:5>,
     <lumberjack:silver_lumberaxe>,
 	<techreborn:smalldust:47>,
     <thermalfoundation:armor.helmet_silver>,

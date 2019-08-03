@@ -8,7 +8,11 @@ var STAGE = STAGES.one;
 
 var stage1Items as IIngredient[] = [
 
+<morefurnaces:upgrade:1>,
+<morefurnaces:furnaceblock:4>,
+<chisel:chisel_iron>,
 <actuallyadditions:stone_paxel>,
+<enderio:item_material:62>,  //ender fragment
 <ore:fiberHemp>,
 <betterwithmods:tasty_sandwich>,
 <roots:terra_spores>,
@@ -21,6 +25,7 @@ var stage1Items as IIngredient[] = [
 <rustic:grape_stem>,
 <roots:wildroot>,
 <betterwithaddons:tweakmat>,
+<betterwithmods:aesthetic:8>,  //ender block
 //Horse Power
 <horsepower:chopper>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}), //Horse Power:Horse Chopping Block
 <horsepower:chopper>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 1 as short}}), //Horse Power:Horse Chopping Block

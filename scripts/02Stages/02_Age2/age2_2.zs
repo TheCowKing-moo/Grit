@@ -330,7 +330,6 @@ var STAGE = STAGES.two;
  <betterwithmods:aesthetic:5>, //Better With Mods:Flint Block
  <betterwithmods:aesthetic:6>, //Better With Mods:White Stone
  <betterwithmods:aesthetic:7>, //Better With Mods:White Cobble
- <betterwithmods:aesthetic:8>, //Better With Mods:Ender Block
  <betterwithmods:aesthetic:9>, //Better With Mods:Block of Padding
  <betterwithmods:aesthetic:10>, //Better With Mods:Block of Soap
  <betterwithmods:aesthetic:11>, //Better With Mods:Block of Dung

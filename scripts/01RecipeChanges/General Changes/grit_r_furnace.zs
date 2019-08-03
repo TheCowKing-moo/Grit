@@ -6,43 +6,14 @@ import crafttweaker.oredict.IOreDictEntry;
 
 
 #Fuel
-
-
-##=====Ingot
 furnace.setFuel(<ore:logWood>, 1000);
 
 ##Bread
 furnace.remove(<minecraft:bread>);
 furnace.remove(<actuallyadditions:item_food:17>);
 
-##Ore to Nugget
-#Gold
-//furnace.remove(<minecraft:gold_ingot>);
-//furnace.addRecipe(<minecraft:gold_nugget>, <ore:oreGold>);
-
-# Copper
-//furnace.remove(<ore:ingotCopper>);
-//furnace.addRecipe(<thermalfoundation:material:192>, <ore:oreCopper>);
-
-# Silver
-//furnace.remove(<ore:ingotSilver>);
-//furnace.addRecipe(<thermalfoundation:material:194>, <ore:oreSilver>);
-
-# Lead
-//furnace.remove(<ore:ingotLead>);
-//furnace.addRecipe(<thermalfoundation:material:195>, <ore:oreLead>);
-
-# Tin
-//furnace.remove(<ore:ingotTin>);
-//furnace.addRecipe(<thermalfoundation:material:198>, <ore:oreTin>);
-
-#Nickel
-//furnace.remove(<ore:ingotNickel>);
-//furnace.addRecipe(<thermalfoundation:material:197>, <ore:oreNickel>);
-
-#Alum
-//furnace.remove(<ore:ingotAluminum>);
-//furnace.addRecipe(<thermalfoundation:material:196>, <ore:oreAluminum>);
+#Marble
+furnace.addRecipe(<astralsorcery:blockmarble>, <ore:stoneDiorite>);
 
 
 ##=====Dirt

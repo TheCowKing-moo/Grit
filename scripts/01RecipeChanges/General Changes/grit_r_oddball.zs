@@ -12,7 +12,7 @@ recipes.addShaped(<gt:compressed_steel>, [[<ore:blockSteel>, <ore:blockSteel>, <
 
 
 # Research Table
-recipes.addShaped(<researchtable:table>, [[<ore:blockGlass>, <ore:bookshelf>, <ore:blockGlass>],[<ore:bookshelf>, <ore:blockCopper>, <ore:bookshelf>], [<ore:blockGlass>, <ore:bookshelf>, <ore:blockGlass>]]);
+recipes.addShaped(<researchtable:table>, [[<ore:blockGlass>, <ore:bookshelf>, <ore:blockGlass>],[<ore:bookshelf>, <ore:enderpearl>, <ore:bookshelf>], [<ore:blockGlass>, <ore:bookshelf>, <ore:blockGlass>]]);
 
 
 
@@ -22,3 +22,5 @@ recipes.addShapeless(emberCrystal,[<ore:charcoal>, fireShard]);
 
 # Remove Paper by sawdust without water
 recipes.removeShapeless( <minecraft:paper>,[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]);
+
+

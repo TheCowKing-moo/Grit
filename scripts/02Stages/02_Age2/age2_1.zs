@@ -6,7 +6,6 @@ import crafttweaker.oredict.IOreDictEntry;
 var STAGE = STAGES.two;
 
 var stage2Items as IIngredient[] = [
-
 //Roots
 <roots:moonglow_leaf>, //Roots:Moonglow Leaf
 <roots:unending_bowl>, //Roots:Unending Bowl

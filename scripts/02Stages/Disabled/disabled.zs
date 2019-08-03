@@ -3,10 +3,11 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-var STAGE = STAGES.six;
+var STAGE = STAGES.disabled;
 
 var stageDItems as IIngredient[] = [
 
+  <natura:netherrack_furnace>,
   <biomesoplenty:gem>,
   <biomesoplenty:gem_block>,
   <biomesoplenty:gem_block:7>,

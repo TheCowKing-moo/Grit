@@ -12,10 +12,10 @@
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:fiberHemp>, 64 )
    ],
    [  //age2
-  	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <minecraft:book>, 512 ),
+  	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <minecraft:book>, 128 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:cobblestone>, 16384 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <minecraft:brick_block>, 256 ),
-	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:itemFlint>, 1024 ),
+	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:itemFlint>, 512 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:glass>, 1024 ),
      scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:ingotBronze>, 128 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <embers:ingot_dawnstone>, 128 ) 

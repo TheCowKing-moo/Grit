@@ -58,7 +58,7 @@ recipes.addShaped(engHammer, [[null, <ore:string>, <ore:ingotSteel>], [null, <or
 #Conv Belts
 recipes.remove(convBelt);
 recipes.addShaped(convBelt *6, [[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:anyMetalIngot>, <ore:anyMetalIngot>, <ore:anyMetalIngot>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
-recipes.addShaped(convBelt *6, [[<ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>], [<ore:anyMetalIngot>, <ore:anyMetalIngot>, <ore:anyMetalIngot>], [<ore:treatedPlank>, <ore:treatedPlank>, <ore:treatedPlank>]]);
+recipes.addShaped(convBelt *6, [[<ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>], [<ore:anyMetalIngot>, <ore:anyMetalIngot>, <ore:anyMetalIngot>], [<ore:plankTreated>, <ore:plankTreated>, <ore:plankTreated>]]);
 
 #Drop Belt
 recipes.addShaped(dropBelt, [[<ore:anyMetalIngot>, convBelt, <ore:anyMetalIngot>], [<ore:anyMetalIngot>, <dungpipe:dung_pipe>, <ore:anyMetalIngot> ], [ null, null, null ]]);
