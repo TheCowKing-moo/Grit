@@ -94,7 +94,6 @@ var stage2Items as IIngredient[] = [
 <roots:fey_light>, //Roots:Fey Light
 <roots:elemental_soil_fire>, //Roots:Magmatic Soil
 //Better With Mods
- <betterwithmods:steel_block>, //Better With Mods:Soulforged Steel Block
  <betterwithmods:hearty_stew>, //Better With Mods:Hearty Stew
  <betterwithmods:steel_battleaxe>, //Better With Mods:Refined Battleaxe
  <betterwithmods:creeper_oyster>, //Better With Mods:Creeper Oyster
@@ -125,7 +124,6 @@ var stage2Items as IIngredient[] = [
  <betterwithmods:grate:5>, //Better With Mods:Dark Oak Grate
  <betterwithmods:booster>, //Better With Mods:Mechanical Booster Rail
  <betterwithmods:stake>, //Better With Mods:Stake
- <betterwithmods:detector_rail_steel>, //Better With Mods:Soulforged Steel Detector Rail
  <betterwithmods:vase>, //Better With Mods:White Vase
  <betterwithmods:vase:1>, //Better With Mods:Orange Vase
  <betterwithmods:vase:2>, //Better With Mods:Magenta Vase
@@ -193,7 +191,6 @@ var stage2Items as IIngredient[] = [
  <betterwithmods:siding_rock>,
  <betterwithmods:cooked_bat_wing>, //Better With Mods:Cooked Bat Wing
  <betterwithmods:cooked_scrambled_egg>, //Better With Mods:Cooked Scrambled Eggs
- <betterwithmods:steel_anvil>, //Better With Mods:Soulforged Steel Anvil
  <betterwithmods:composite_bow>, //Better With Mods:Composite Bow
  <betterwithmods:cooked_mystery_meat>, //Better With Mods:Cooked Mystery Meat
  <betterwithmods:moulding_ground>.withTag({texture: {Properties: {blocktype: "soap"}, Name: "betterwithmods:aesthetic"}}), //Better With Mods:Moulding
@@ -220,7 +217,6 @@ var stage2Items as IIngredient[] = [
  <betterwithmods:material:11>, //Better With Mods:Wind Sail
  <betterwithmods:material:12>, //Better With Mods:Glue
  <betterwithmods:material:13>, //Better With Mods:Tallow
- <betterwithmods:material:14>, //Better With Mods:Soulforged Steel Ingot
  <betterwithmods:material:15>, //Better With Mods:Ground Netherrack
  <betterwithmods:material:16>, //Better With Mods:Hellfire Dust
  <betterwithmods:material:17>, //Better With Mods:Concentrated Hellfire
@@ -236,7 +232,6 @@ var stage2Items as IIngredient[] = [
  <betterwithmods:material:27>, //Better With Mods:Heating Element
  <betterwithmods:material:28>, //Better With Mods:Explosive Fuse
  <betterwithmods:material:29>, //Better With Mods:Blasting Oil
- <betterwithmods:material:30>, //Better With Mods:Soulforged Steel Nugget
  <betterwithmods:material:31>, //Better With Mods:Cut Leather
  <betterwithmods:material:32>, //Better With Mods:Cut Leather (Tanned)
  <betterwithmods:material:33>, //Better With Mods:Cut Leather (Scoured)
@@ -254,10 +249,7 @@ var stage2Items as IIngredient[] = [
  <betterwithmods:material:45>, //Better With Mods:Diamond Ingot
  <betterwithmods:material:46>, //Better With Mods:Diamond Nugget
  <betterwithmods:material:47>, //Better With Mods:Chain Mail
- <betterwithmods:material:48>, //Better With Mods:Soulforged Steel Gear
- <betterwithmods:material:49>, //Better With Mods:Soulforged Steel Spring
  <betterwithmods:material:50>, //Better With Mods:Soap
- <betterwithmods:material:51>, //Better With Mods:Soulforged Steel Plate
  <betterwithmods:material:52>, //Better With Mods:Witch Wart
  <betterwithmods:material:53>, //Better With Mods:Mysterious Gland
  <betterwithmods:material:54>, //Better With Mods:Poison Sac
@@ -267,7 +259,6 @@ var stage2Items as IIngredient[] = [
  <betterwithmods:steel_pressure_plate>, //Better With Mods:Steel Pressure Plate
  <betterwithmods:leather_tanned_chest>, //Better With Mods:Tanned Leather Tunic
 
- <betterwithmods:steel_saw>, //Better With Mods:Soulforged Steel Saw
  <betterwithmods:block_dispenser>, //Better With Mods:Block Dispenser
  <betterwithmods:anchor>, //Better With Mods:Anchor
  <betterwithmods:bark>, //Better With Mods:Oak Bark
@@ -349,10 +340,8 @@ var stage2Items as IIngredient[] = [
  <betterwithmods:planter:8>, //Better With Mods:Red Sand Planter
  <betterwithmods:planter:9>, //Better With Mods:Dirt Planter
  <betterwithmods:arcane_scroll>, //Better With Mods:Arcane Scroll
-
  <forestry:smoker>, //Forestry:Bee Smoker
  <forestry:mailbox>, //Forestry:Mailbox
-
  <betterwithmods:wicker> //Better With Mods:Wicker
  ];
 

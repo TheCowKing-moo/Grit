@@ -15,6 +15,8 @@ var extractBelt = <immersiveengineering:conveyor>.withTag({conveyorType: "immers
 var splitter =   <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"});
 var router = <immersiveengineering:wooden_device0:3>;
 var verticalBelt = <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"});
+var kinDynamo = <immersiveengineering:metal_device1:2>;
+var copperCoil = <immersiveengineering:metal_decoration0>;
 
 #Immersive Engineering
 
@@ -53,7 +55,7 @@ recipes.remove(cloche);
 
 #Engineer's Hammer
 recipes.remove(engHammer);
-recipes.addShaped(engHammer, [[null, <ore:string>, <ore:ingotSteel>], [null, <ore:stick>, <ore:string>], [<ore:string>, null, null]]);
+recipes.addShaped(engHammer, [[null, <ore:string>, <ore:ingotSteel>], [null, <ore:stickWood>, <ore:string>], [<ore:stickWood>, null, null]]);
 
 #Conv Belts
 recipes.remove(convBelt);
@@ -83,3 +85,8 @@ recipes.addShaped(mvCap, [[<ore:leadBlock>, <ore:blockElectrum>, <ore:leadBlock>
 recipes.remove(mvCap);
 recipes.addShaped(hvCap, [[<ore:leadBlock>, <ore:blockAluminum>, <ore:leadBlock>], [<ore:blockAluminum>, <ore:blockLithium>, <ore:blockAluminum>], [<ore:blockSteel>, <ore:blockAluminum>, <ore:blockSteel>]]);
 recipes.addShaped(hvCap, [[<ore:leadBlock>, <ore:blockAluminum>, <ore:leadBlock>], [<ore:blockAluminum>, mvCap, <ore:blockAluminum>], [<ore:blockSteel>, <ore:blockAluminum>, <ore:blockSteel>]]);
+
+
+#Kin Dynamo
+recipes.remove(kinDynamo);
+recipes.addShaped(kinDynamo, [[null, null, null], [<ore:dustRedstone>, copperCoil, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);

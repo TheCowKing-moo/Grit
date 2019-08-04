@@ -7,6 +7,134 @@ var STAGE = STAGES.three;
 
 var stage3Items as IIngredient[] = [
 
+<mysticalmechanics:gearbox_frame>,
+<mysticalmechanics:axle_iron>,
+<mysticalmechanics:mergebox_frame>,
+<mysticalmechanics:gear_gold_on>,
+<mysticalmechanics:gear_gold_off>,
+<mysticalmechanics:gear_fan>,
+<mysticalmechanics:converter_bwm>,
+<mystgears:redstone_dynamo>,
+<mystgears:bellows_mechanical>,
+<mystgears:vis_motor>,
+<mystgears:essentia_motor>,
+<mystgears:crafter_mechanical>,
+<mystgears:windup_box>,
+<mystgears:gear_antimony>,
+<mystgears:gear_stone>,
+<mystgears:gear_wood>,
+<mystgears:gear_void>,
+
+ <immersiveengineering:metal_decoration2:4>, //Immersive Engineering:Lantern
+ <immersiveengineering:stone_decoration>, //Immersive Engineering:Coke Brick
+ <immersiveengineering:wirecoil>, //Immersive Engineering:LV Wire Coil
+ <immersiveengineering:wirecoil:6>, //Immersive Engineering:Insulated LV Wire Coil
+ <immersiveengineering:metal_device0>, //Immersive Engineering:LV Capacitor
+ <immersiveengineering:connector>, //Immersive Engineering:LV Wire Connector
+ <immersiveengineering:connector:1>, //Immersive Engineering:LV Wire Relay
+ <immersiveengineering:wooden_device1:1>, //Immersive Engineering:Windmill
+ <immersiveengineering:wooden_device1:3>, //Immersive Engineering:Wooden Post
+ <immersiveengineering:wooden_device1:4>, //Immersive Engineering:Wooden Wallmount
+ <immersiveengineering:wooden_device0>, //Immersive Engineering:Wooden Storage Crate
+ <immersiveengineering:wooden_device0:1>, //Immersive Engineering:Wooden Barrel
+ <immersiveengineering:wooden_device0:2>, //Immersive Engineering:Engineer's Workbench
+ <immersiveengineering:wooden_device0:4>, //Immersive Engineering:Gunpowder Barrel
+ <immersiveengineering:wooden_device0:5>, //Immersive Engineering:Reinforced Storage Crate
+ <immersiveengineering:wooden_device0:6>, //Immersive Engineering:Turntable
+ <immersiveengineering:wooden_device0:7>, //Immersive Engineering:Fluid Router
+ <immersiveengineering:toolbox>, //Immersive Engineering:Engineer's Toolbox
+ <immersiveengineering:tool>, //Immersive Engineering:Engineer's Hammer
+ <immersiveengineering:tool:1>, //Immersive Engineering:Engineer's Wire Cutters
+ <immersiveengineering:tool:2>, //Immersive Engineering:Engineer's Voltmeter
+ <immersiveengineering:tool:3>, //Immersive Engineering:Engineer's Manual
+ <immersiveengineering:treated_wood_slab>, //Immersive Engineering:Treated Wood Slab
+ <immersiveengineering:treated_wood_slab:1>, //Immersive Engineering:Treated Wood Slab
+ <immersiveengineering:treated_wood_slab:2>, //Immersive Engineering:Treated Wood Slab
+ <immersiveengineering:metal_ladder>, //Immersive Engineering:Metal Ladder
+ <immersiveengineering:metal_ladder:1>, //Immersive Engineering:Scaffold Covered Ladder
+ <immersiveengineering:metal_ladder:2>, //Immersive Engineering:Scaffold Covered Ladder
+ <immersiveengineering:wooden_device1>, //Immersive Engineering:Water Wheel
+ <immersiveengineering:treated_wood>, //Immersive Engineering:Treated Wood Planks
+ <immersiveengineering:treated_wood:1>, //Immersive Engineering:Treated Wood Planks
+ <immersiveengineering:treated_wood:2>, //Immersive Engineering:Treated Wood Planks
+ <immersiveengineering:wooden_decoration>, //Immersive Engineering:Treated Wood Fence
+ <immersiveengineering:wooden_decoration:1>, //Immersive Engineering:Treated Wood Scaffolding
+ <immersiveengineering:mold>, //Immersive Engineering:Metal Press Mold: Plate
+ <immersiveengineering:mold:1>, //Immersive Engineering:Metal Press Mold: Gear
+ <immersiveengineering:mold:2>, //Immersive Engineering:Metal Press Mold: Rod
+ <immersiveengineering:mold:3>, //Immersive Engineering:Metal Press Mold: Bullet Casing
+ <immersiveengineering:mold:4>, //Immersive Engineering:Metal Press Mold: Wire
+ <immersiveengineering:mold:5>, //Immersive Engineering:Metal Press Mold: Packing 2x2
+ <immersiveengineering:mold:6>, //Immersive Engineering:Metal Press Mold: Packing 3x3
+ <immersiveengineering:mold:7>, //Immersive Engineering:Metal Press Mold: Unpacking
+ <immersiveengineering:drill>, //Immersive Engineering:Mining Drill
+ <immersiveengineering:stone_decoration_stairs_hempcrete>, //Immersive Engineering:Hempcrete Stairs
+ <immersiveengineering:stone_decoration_slab>, //Immersive Engineering:Coke Brick Slab
+ <immersiveengineering:stone_decoration_slab:4>, //Immersive Engineering:Hempcrete Slab
+ <immersiveengineering:stone_decoration_slab:5>, //Immersive Engineering:Concrete Slab
+ <immersiveengineering:stone_decoration_slab:6>, //Immersive Engineering:Concrete Tile Slab
+ <immersiveengineering:stone_decoration_slab:7>, //Immersive Engineering:Leaded Concrete Slab
+ <immersiveengineering:stone_decoration_slab:10>, //Immersive Engineering:Kiln Brick Slab
+ <immersiveengineering:wirecoil:5>, //Immersive Engineering:Redstone Wire Coil
+ <immersiveengineering:metal_device1:1>, //Immersive Engineering:External Heater
+ <immersiveengineering:metal_device1:2>, //Immersive Engineering:Kinetic Dynamo
+ <immersiveengineering:metal_device1:3>, //Immersive Engineering:Thermoelectric Generator
+ <immersiveengineering:metal_device1:4>, //Immersive Engineering:Powered Lantern
+ <immersiveengineering:metal_device1:5>, //Immersive Engineering:Charging Station
+ <immersiveengineering:metal_device1:6>, //Immersive Engineering:Fluid Pipe
+ <immersiveengineering:connector:6>, //Immersive Engineering:Structural Cable Connector
+ <immersiveengineering:connector:12>, //Immersive Engineering:Redstone Wire Connector
+ <immersiveengineering:connector:13>, //Immersive Engineering:Redstone Probe Connector
+ <immersiveengineering:connector:10>, //Immersive Engineering:Redstone Breaker
+ <immersiveengineering:connector:9>, //Immersive Engineering:Breaker Switch
+ <immersiveengineering:connector:11>, //Immersive Engineering:Current Transformer
+ <immersiveengineering:stone_decoration_stairs_concrete>, //Immersive Engineering:Concrete Stairs
+ <immersiveengineering:cloth_device>, //Immersive Engineering:Jump Cushion
+ <immersiveengineering:cloth_device:1>, //Immersive Engineering:Balloon
+ <immersiveengineering:cloth_device:2>, //Immersive Engineering:Strip Curtain
+ <immersiveengineering:earmuffs>, //Immersive Engineering:Ear Defenders
+ <immersiveengineering:stone_decoration_stairs_concrete_leaded>, //Immersive Engineering:Leaded Concrete Stairs
+  <immersiveengineering:toolupgrade:12>, //Immersive Engineering:Magnetic Glove
+ <immersiveengineering:toolupgrade:11>, //Immersive Engineering:Shock Emitters
+ <immersiveengineering:toolupgrade>, //Immersive Engineering:Pressurized Air Tank
+ <immersiveengineering:toolupgrade:1>, //Immersive Engineering:Advanced Lubrication System
+ <immersiveengineering:toolupgrade:2>, //Immersive Engineering:Additional Augers
+ <immersiveengineering:toolupgrade:3>, //Immersive Engineering:Large Tank
+ <immersiveengineering:toolupgrade:9>, //Immersive Engineering:Additional Capacitors
+ <immersiveengineering:toolupgrade:10>, //Immersive Engineering:Flashbulb
+ <immersiveengineering:toolupgrade:13>, //Immersive Engineering:Multitank
+  <immersiveengineering:material:26>, //Immersive Engineering:Vacuum Tube
+ <immersiveengineering:material:27>, //Immersive Engineering:Circuit Board
+  <immersiveengineering:material:20>, //Immersive Engineering:Copper Wire
+ <immersiveengineering:material:17>, //Immersive Engineering:Coke Dust
+ <immersiveengineering:material:10>, //Immersive Engineering:Waterwheel Segment
+ <immersiveengineering:material:11>, //Immersive Engineering:Windmill Blade
+ <immersiveengineering:material:12>, //Immersive Engineering:Windmill Sail
+  <immersiveengineering:material:8>, //Immersive Engineering:Iron Mechanical Component
+ <immersiveengineering:material:5>, //Immersive Engineering:Tough Fabric
+ <immersiveengineering:material:6>, //Immersive Engineering:Coal Coke
+ <immersiveengineering:material:7>, //Immersive Engineering:Slag
+  <immersiveengineering:material>, //Immersive Engineering:Treated Stick
+  <immersiveengineering:stone_decoration:7>, //Immersive Engineering:Leaded Concrete
+   <immersiveengineering:stone_decoration:10>, //Immersive Engineering:Kiln Brick
+   <immersiveengineering:stone_decoration:4>, //Immersive Engineering:Hempcrete
+ <immersiveengineering:stone_decoration:5>, //Immersive Engineering:Concrete
+ <immersiveengineering:stone_decoration:6>, //Immersive Engineering:Concrete Tile
+  <immersiveengineering:metal_decoration0>, //Immersive Engineering:Copper Coil Block
+  <railcraft:bore>, //Railcraft:Tunnel Bore
+
+  
+
+
+
+
+
+
+
+
+
+
+ 
 //Thaumcraft
 // <thaumcraft:phial:*>,
  <thaumcraft:infernal_furnace>,

@@ -1,4 +1,9 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
+import mods.astralsorcery.StarlightInfusion;
 
 
 # *======= Altar =======*
@@ -26,7 +31,8 @@
 # *======= Starlight Infusion =======*
 
 #mods.astralsorcery.StarlightInfusion.addInfusion(IItemStack input, IItemStack output, boolean consumeMultiple, float consumptionChance, int craftingTickTime);
-#mods.astralsorcery.StarlightInfusion.addInfusion(<astralsorcery:itemjournal>, <minecraft:bow>, false, 0.7, 200);
+mods.astralsorcery.StarlightInfusion.addInfusion(<minecraft:sapling>, <thaumcraft:sapling_greatwood>, false, 0.7, 200);
+mods.astralsorcery.StarlightInfusion.addInfusion(<totemic:cedar_sapling>, <thaumcraft:sapling_silverwood>, true, 0.7, 200);
 
 #mods.astralsorcery.StarlightInfusion.removeInfusion(IItemStack output);
 #mods.astralsorcery.StarlightInfusion.removeInfusion(<minecraft:ice>);

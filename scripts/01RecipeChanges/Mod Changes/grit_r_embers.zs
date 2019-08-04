@@ -187,3 +187,7 @@ recipes.addShaped(<embers:vacuum>, [[null, <ore:ingotLead>, <ore:ingotLead>],[<m
 #Breaker
 recipes.remove(<embers:breaker>);
 recipes.addShaped(<embers:breaker>, [[<ore:plateBronze>, <ore:blockBronze>, <ore:plateBronze>],[<ore:ingotLead>, <ore:blockRedstone>, <ore:ingotLead>], [<ore:ingotLead>, null, <ore:ingotLead>]]);
+
+recipes.remove(<embers:block_lantern>);
+recipes.addShaped(<embers:block_lantern>, [[null, <ore:anyMetalPlate>, null],[null, <embers:shard_ember>, null], [null, <ore:anyMetalIngot>, null]]);
+

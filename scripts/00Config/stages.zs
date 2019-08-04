@@ -13,7 +13,7 @@
   };
 
   global itemStages as string[string] = {
-	aluminium: "four",
+	aluminium: "three",
 	amber: "four",
 	blackQuartz: "four",
 	boron: "six",
@@ -31,7 +31,7 @@
 	diamond: "four",
 	ebonyPsiMetal: "six",
 	electricalSteel: "six",
-	electrum: "four",
+	electrum: "three",
 	elementium: "four",
 	emerald: "four",
 	endSteel: "six",
@@ -73,7 +73,7 @@
 	signalum: "six",
 	silver: "two",
     soularium: "six",
-	soulForgedSteel: "two",
+	soulForgedSteel: "three",
 	starMetal: "two",
 	steel: "four",
 	terraSteel: "four",

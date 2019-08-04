@@ -7,10 +7,33 @@ var STAGE = STAGES.disabled;
 
 var stageDItems as IIngredient[] = [
 
+<mysticalmechanics:creative_mech_source>,
+ <immersiveengineering:stone_decoration:3>, //Immersive Engineering:Block of Coal Coke
   <natura:netherrack_furnace>,
   <biomesoplenty:gem>,
+  <immersiveengineering:pickaxe_steel>, //Immersive Engineering:Steel Pickaxe
   <biomesoplenty:gem_block>,
   <biomesoplenty:gem_block:7>,
+   <immersiveengineering:metal_device1:13>, //Immersive Engineering:Garden Cloche
+ <immersiveengineering:ore>, //Immersive Engineering:Copper Ore
+ <immersiveengineering:ore:1>, //Immersive Engineering:Bauxite Ore
+ <immersiveengineering:ore:2>, //Immersive Engineering:Lead Ore
+ <immersiveengineering:ore:3>, //Immersive Engineering:Silver Ore
+ <immersiveengineering:ore:4>, //Immersive Engineering:Nickel Ore
+ <immersiveengineering:ore:5>, //Immersive Engineering:Uranium Ore
+  <immersiveengineering:sword_steel>, //Immersive Engineering:Steel Sword
+ <immersiveengineering:axe_steel>, //Immersive Engineering:Steel Axe
+  <immersiveengineering:shovel_steel>, //Immersive Engineering:Steel Shovel
+ <immersiveengineering:storage_slab:1>, //Immersive Engineering:Aluminium Slab
+ <immersiveengineering:storage_slab:2>, //Immersive Engineering:Lead Slab
+ <immersiveengineering:storage_slab:3>, //Immersive Engineering:Silver Slab
+ <immersiveengineering:storage_slab:4>, //Immersive Engineering:Nickel Slab
+ <immersiveengineering:storage_slab:5>, //Immersive Engineering:Uranium Slab
+ <immersiveengineering:storage_slab:6>, //Immersive Engineering:Constantan Slab
+ <immersiveengineering:storage_slab:7>, //Immersive Engineering:Electrum Slab
+ <immersiveengineering:storage_slab:8>, //Immersive Engineering:Steel Slab
+  <immersiveengineering:storage_slab>, //Immersive Engineering:Copper Slab
+
   <biomesoplenty:gem_block:6>,
   <biomesoplenty:gem_block:3>,
   <biomesoplenty:gem_block:1>,

@@ -16,7 +16,7 @@
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:cobblestone>, 16384 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <minecraft:brick_block>, 256 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:itemFlint>, 512 ),
-	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:glass>, 1024 ),
+	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:blockGlass>, 1024 ),
      scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:ingotBronze>, 128 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <embers:ingot_dawnstone>, 128 ) 
    ],
@@ -24,8 +24,8 @@
      scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:ingotThaumium>, 512 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <thaumcraft:nitor_yellow>, 1024 ),
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <thaumcraft:paving_stone_travel>, 2056 ),
-	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <immersiveengineering:metal_device0>, 128 ),		 // LV Cap
-	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <immersiveengineering:wooden_device1>, 128 ),  		 // IE Water Wheel
+	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <immersiveengineering:metal_device0>, 64 ),		 // LV Cap
+	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <immersiveengineering:wooden_device1:1>, 64 ),  		 // IE Water Wheel
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <railcraft:bore>, 32 ),                           	 // RC Tunnel Bore
 	 scripts.ResearchTable.aaaResearchClass.stageMaterial( <ore:blockRedstone>, 512 )
    ],

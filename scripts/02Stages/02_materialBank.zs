@@ -5,6 +5,28 @@ import crafttweaker.oredict.IOreDictEntry;
 
 global materialBank as IIngredient[][string] = {
   aluminium: [
+   <immersiveengineering:metal_decoration1:4>, //Immersive Engineering:Aluminium Fence
+ <immersiveengineering:metal_decoration1:5>, //Immersive Engineering:Aluminium Scaffolding
+ <immersiveengineering:metal_decoration1:6>, //Immersive Engineering:Aluminium Scaffolding
+ <immersiveengineering:metal_decoration1:7>, //Immersive Engineering:Aluminium Scaffolding
+  <immersiveengineering:metal_decoration2:2>, //Immersive Engineering:Aluminium Post
+ <immersiveengineering:metal_decoration2:3>, //Immersive Engineering:Aluminium Wallmount
+  <immersiveengineering:metal_decoration2:8>, //Immersive Engineering:Aluminium Structural Arm
+ <immersiveengineering:material:22>, //Immersive Engineering:Aluminium Wire
+ <engineersdoors:fencegate_aluminium>, //Engineer's Doors:Aluminum Fence Gate
+
+    <immersiveengineering:faraday_suit_head>, //Immersive Engineering:Faraday Helmet
+    <immersiveengineering:faraday_suit_feet>, //Immersive Engineering:Faraday Boots
+    <immersiveengineering:faraday_suit_legs>, //Immersive Engineering:Faraday Leggings
+    <immersiveengineering:faraday_suit_chest>, //Immersive Engineering:Faraday Chestplate
+    <immersiveengineering:metal_decoration1_slab:5>, //Immersive Engineering:Aluminium Scaffolding Slab
+    <immersiveengineering:metal_decoration1_slab:6>, //Immersive Engineering:Aluminium Scaffolding Slab
+    <immersiveengineering:metal_decoration1_slab:7>, //Immersive Engineering:Aluminium Scaffolding Slab
+    <immersiveengineering:sheetmetal:1>, //Immersive Engineering:Aluminium Sheetmetal
+	<immersiveengineering:sheetmetal_slab:1>, //Immersive Engineering:Aluminium Sheetmetal Slab
+    <immersiveengineering:aluminum_scaffolding_stairs2>, //Immersive Engineering:Aluminium Scaffolding Stairs
+    <immersiveengineering:aluminum_scaffolding_stairs0>, //Immersive Engineering:Aluminium Scaffolding Stairs
+    <immersiveengineering:aluminum_scaffolding_stairs1>, //Immersive Engineering:Aluminium Scaffolding Stairs
 	<techreborn:smalldust:1>,
     <thermalfoundation:armor.helmet_aluminum>,
 	<embers:seed_aluminum>, //Embers Rekindled:Aluminium Crystal Seed
@@ -85,6 +107,9 @@ global materialBank as IIngredient[][string] = {
 	<appliedenergistics2:certus_quartz_cutting_knife>
   ],
   constantan: [
+    <immersiveposts:fence_constantan>, //Immersive Posts:Constantan Fence
+    <immersiveengineering:sheetmetal_slab:6>, //Immersive Engineering:Constantan Sheetmetal Slab
+    <immersiveengineering:sheetmetal:6>, //Immersive Engineering:Constantan Sheetmetal
     <thermalfoundation:armor.helmet_constantan>,
     <thermalfoundation:armor.plate_constantan>,
     <thermalfoundation:armor.legs_constantan>,
@@ -106,6 +131,10 @@ global materialBank as IIngredient[][string] = {
     <thermalfoundation:material:356>
   ],
   copper: [
+   <immersiveposts:fence_copper>, //Immersive Posts:Copper Fence
+
+   <immersiveengineering:sheetmetal_slab>, //Immersive Engineering:Copper Sheetmetal Slab
+   <immersiveengineering:sheetmetal>, //Immersive Engineering:Copper Sheetmetal
     <morefurnaces:furnaceblock:5>,
 	<morefurnaces:upgrade:7>,
 	<techreborn:smalldust:14>,
@@ -135,6 +164,7 @@ global materialBank as IIngredient[][string] = {
     <lumberjack:darksteel_lumberaxe>
   ],
   diamond: [
+    <mystgears:gear_diamond>,
     <binniecore:storage:5>,
 	<morefurnaces:furnaceblock:2>,
 	<morefurnaces:upgrade:4>,
@@ -176,6 +206,11 @@ global materialBank as IIngredient[][string] = {
     <minecraft:enchanting_table>
   ],
   electrum: [
+   <immersiveengineering:material:21>, //Immersive Engineering:Electrum Wire
+ <immersiveposts:fence_electrum>, //Immersive Posts:Electrum Fence
+
+    <immersiveengineering:sheetmetal_slab:7>, //Immersive Engineering:Electrum Sheetmetal Slab
+    <immersiveengineering:sheetmetal:7>, //Immersive Engineering:Electrum Sheetmetal
 	<techreborn:smalldust:17>,
     <thermalfoundation:armor.helmet_electrum>,
 	<thermalfoundation:armor.plate_electrum>,
@@ -196,6 +231,7 @@ global materialBank as IIngredient[][string] = {
 	<thermalfoundation:horse_armor_electrum>
   ],
   elementium:  [
+    <mystgears:gear_elvenelementium>,
     <lumberjack:elementium_lumberaxe>
   ],
   emerald: [
@@ -216,6 +252,11 @@ global materialBank as IIngredient[][string] = {
     <techreborn:plates:6>
   ],
   gold: [
+   <immersiveposts:stick_gold>, //Immersive Posts:Gold Rod
+ <immersiveposts:fence_gold>, //Immersive Posts:Gold Fence
+
+    <immersiveengineering:sheetmetal:10>, //Immersive Engineering:Gold Sheetmetal
+	<immersiveengineering:sheetmetal_slab:10>, //Immersive Engineering:Gold Sheetmetal Slab
     <bibliocraft:biblioglasses:2>,
     <lumberjack:gold_lumberaxe>,
     <actuallyadditions:gold_paxel>, //Actually Additions:Golden AIOT
@@ -340,6 +381,10 @@ global materialBank as IIngredient[][string] = {
   iridium: [
   ],
   iron: [
+   <immersiveposts:fence_iron>, //Immersive Posts:Iron Fence
+
+    <immersiveengineering:sheetmetal_slab:9>, //Immersive Engineering:Iron Sheetmetal Slab
+    <immersiveengineering:sheetmetal:9>, //Immersive Engineering:Iron Sheetmetal
     <morefurnaces:furnaceblock>,
 	<morefurnaces:upgrade:6>,
 	<morefurnaces:upgrade>,
@@ -509,6 +554,10 @@ global materialBank as IIngredient[][string] = {
     <charm:iron_lantern>
   ],
   lead: [
+   <immersiveposts:fence_lead>, //Immersive Posts:Lead Fence
+
+   <immersiveengineering:sheetmetal_slab:2>, //Immersive Engineering:Lead Sheetmetal Slab
+   <immersiveengineering:sheetmetal:2>, //Immersive Engineering:Lead Sheetmetal
 	<techreborn:smalldust:29>,
 	<lumberjack:lead_lumberaxe>,
     <thermalfoundation:armor.helmet_lead>,
@@ -531,10 +580,13 @@ global materialBank as IIngredient[][string] = {
     <thermalfoundation:horse_armor_lead>
   ],
   manaSteel:  [
+    <mystgears:gear_manasteel>,
     <lumberjack:manasteel_lumberaxe>
   ],
   nickel: [
-  <techreborn:smalldust:34>,
+    <immersiveengineering:sheetmetal_slab:4>, //Immersive Engineering:Nickel Sheetmetal Slab
+    <immersiveengineering:sheetmetal:4>, //Immersive Engineering:Nickel Sheetmetal
+    <techreborn:smalldust:34>,
     <thermalfoundation:armor.helmet_nickel>,
 	<embers:seed_nickel>, //Embers Rekindled:Nickel Crystal Seed
     <thermalfoundation:armor.plate_nickel>,
@@ -673,6 +725,8 @@ global materialBank as IIngredient[][string] = {
     <thermalfoundation:material:357>
   ],
   silver: [
+   <immersiveengineering:sheetmetal_slab:3>, //Immersive Engineering:Silver Sheetmetal Slab
+    <immersiveengineering:sheetmetal:3>, //Immersive Engineering:Silver Sheetmetal
     <morefurnaces:furnaceblock:6>,
 	<morefurnaces:upgrade:5>,
     <lumberjack:silver_lumberaxe>,
@@ -697,7 +751,18 @@ global materialBank as IIngredient[][string] = {
     <thermalfoundation:tool.shield_silver>,
     <thermalfoundation:horse_armor_silver>
   ],
+  soulForgedSteel:  [
+     <betterwithmods:detector_rail_steel>, //Better With Mods:Soulforged Steel Detector Rail
+	 <betterwithmods:steel_saw>, //Better With Mods:Soulforged Steel Saw
+     <betterwithmods:steel_anvil>, //Better With Mods:Soulforged Steel Anvil
+     <betterwithmods:material:49> //Better With Mods:Soulforged Steel Spring
+  ],
   steel: [
+    <immersiveengineering:sheetmetal_slab:8>, //Immersive Engineering:Steel Sheetmetal Slab
+    <immersiveengineering:metal_decoration1_slab:1>, //Immersive Engineering:Steel Scaffolding Slab
+    <immersiveengineering:metal_decoration1_slab:2>, //Immersive Engineering:Steel Scaffolding Slab
+    <immersiveengineering:metal_decoration1_slab:3>, //Immersive Engineering:Steel Scaffolding Slab
+    <immersiveengineering:sheetmetal:8>, //Immersive Engineering:Steel Sheetmetal
     <techreborn:smalldust:51>,
     <lumberjack:steel_lumberaxe>,
     <thermalfoundation:armor.helmet_steel>,
@@ -723,7 +788,11 @@ global materialBank as IIngredient[][string] = {
     <bedrockores:bedrock_miner>
   ],
   terraSteel:  [
+    <mystgears:gear_terrasteel>,
     <lumberjack:terrasteel_lumberaxe>
+  ],
+  thaumium:  [
+    <mystgears:gear_thaumium>
   ],
   tin: [
     <ore:dustTin>,

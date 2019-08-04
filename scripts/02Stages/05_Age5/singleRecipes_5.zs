@@ -1387,6 +1387,7 @@ var stage5Items as IIngredient[] = [
  <techreborn:cloakingdevice>.withTag({energy: 0}), //Tech Reborn:Cloaking Device
  <techreborn:cloakingdevice>.withTag({energy: 40000000}), //Tech Reborn:Cloaking Device
  //Botania
+ <mystgears:gearanium>,
 <botania:superlavapendant>, //Botania:Crimson Pendant
 <botania:grasshorn>, //Botania:Horn of the Wild
 <botania:grasshorn:1>, //Botania:Horn of the Canopy
